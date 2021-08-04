@@ -5,9 +5,9 @@
   // превращаем строку в массив
   $explode = explode(',', $str);
   // объединяем два массива в один
-  $merge = array_merge($searchId,$empty);
+  $merge = array_merge($searchId, $empty);
   // удаляем исключения
-  $diff = array_diff($explode, $empty);
+  $diff = array_diff($explode, $merge);
   // сбрасываем индекс
   $a = array_values($diff);
 
