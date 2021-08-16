@@ -1,5 +1,5 @@
 <?php
-
+// быстро отдаём ответ, и делаем свои дела сколько угодно долго
   ob_start();
   $size = ob_get_length();
   header("Content-Encoding: none");
