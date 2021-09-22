@@ -10,7 +10,7 @@ class phpMailer
 {
     public function __construct()
     {
-        $this->l = logger('crm/AMOCRM');
+        $this->l = logger('CRM');
     }
 
     public function sendMail($smtp, $email, $url)
